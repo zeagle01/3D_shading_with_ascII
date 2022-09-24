@@ -1,0 +1,4 @@
+cmake_minimum_required(VERSION 3.12)
+project(sd_shading_with_accII)
+add_executable(sd_shading_with_accII main.cpp)
+target_compile_features(sd_shading_with_accII PRIVATE cxx_std_17)
